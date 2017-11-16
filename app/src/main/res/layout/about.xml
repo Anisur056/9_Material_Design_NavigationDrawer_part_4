@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<android.support.v7.widget.Toolbar
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="#F44336"
+		android:id="@+id/app_bar">
+
+	</android.support.v7.widget.Toolbar>
+
+    <TextView
+		android:gravity="center"
+		android:textSize="19dp"
+        android:text="Material Design v1.0\n  Developed By : anisur rahman\n Email : ranisur056@gmail.com"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
